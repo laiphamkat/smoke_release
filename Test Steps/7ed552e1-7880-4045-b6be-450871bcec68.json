@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home",
+        "step 2: Login at Page home --> navigate to Page inventory html",
+        "step 3: At Page inventory html click on select object",
+        "step 4: At Page inventory html click on select object",
+        "step 5: At Page inventory html click on button react burger menu btn",
+        "step 6: Add visual checkpoint at Page inventory html"
+    ]
+}

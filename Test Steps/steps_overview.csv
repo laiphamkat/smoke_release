@@ -1,3 +1,21 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify successful navigation to Home Page,"step 1: Navigate to Page home
-step 2: Add visual checkpoint at Page home",High
+2,Verify Adding Item to Cart and Proceeding to Checkout,"step 1: Navigate to Page home
+step 2: Login at Page home --> navigate to Page inventory html
+step 3: At Page inventory html click on hyperlink item 0 title link --> navigate to Page inventory-item html
+step 4: At Page inventory-item html click on button add to cart sauce labs bike light
+step 5: At Page inventory-item html click on div object
+step 6: At Page inventory-item html click on hyperlink object --> navigate to Page cart html
+step 7: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
+step 8: At Page checkout-step-one html input on input first name
+step 9: At Page checkout-step-one html input on input last name
+step 10: At Page checkout-step-one html input on input postal code
+step 11: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
+step 12: Add visual checkpoint at Page checkout-step-two html",High
+1,Verify Successful Login and Navigation to Inventory Page,"step 1: Navigate to Page home
+step 2: Login at Page home --> navigate to Page inventory html
+step 3: At Page inventory html click on select object
+step 4: At Page inventory html click on select object
+step 5: At Page inventory html click on button react burger menu btn
+step 6: Add visual checkpoint at Page inventory html",Low
+3,Verify Successful Navigation to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
+step 2: Add visual checkpoint at Page checkout-complete html",Trivial

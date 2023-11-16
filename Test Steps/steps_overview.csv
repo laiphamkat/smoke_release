@@ -1,21 +1,17 @@
 Flow ID,Description,Test Steps,Flow Priority
-2,Verify Adding Item to Cart and Proceeding to Checkout,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on hyperlink item 0 title link --> navigate to Page inventory-item html
-step 4: At Page inventory-item html click on button add to cart sauce labs bike light
-step 5: At Page inventory-item html click on div object
-step 6: At Page inventory-item html click on hyperlink object --> navigate to Page cart html
-step 7: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
-step 8: At Page checkout-step-one html input on input first name
-step 9: At Page checkout-step-one html input on input last name
-step 10: At Page checkout-step-one html input on input postal code
-step 11: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
-step 12: Add visual checkpoint at Page checkout-step-two html",High
-1,Verify Successful Login and Navigation to Inventory Page,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on select object
-step 4: At Page inventory html click on select object
-step 5: At Page inventory html click on button react burger menu btn
-step 6: Add visual checkpoint at Page inventory html",Low
-3,Verify Successful Navigation to Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
-step 2: Add visual checkpoint at Page checkout-complete html",Trivial
+2,Verify successful navigation to Category Page,"step 1: Navigate to Page category
+step 2: At Page category click on button object
+step 3: Add visual checkpoint at Page category",High
+1,Verify successful navigation to Home Page,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: Add visual checkpoint at Page home",High
+6,Verify successful navigation to Thank You Page,"step 1: Navigate to Page thank-youf3a00-9dd9-410d-93c8-b258087d0814
+step 2: Add visual checkpoint at Page thank-youf3a00-9dd9-410d-93c8-b258087d0814",Medium
+4,Verify successful navigation to Checkout Shipping Address Page,"step 1: Navigate to Page checkout shipping-address
+step 2: Add visual checkpoint at Page checkout shipping-address",Medium
+7,Verify successful navigation to Checkout Payment Page,"step 1: Navigate to Page checkout payment
+step 2: Add visual checkpoint at Page checkout payment",Medium
+3,Verify successful navigation to Cart Page,"step 1: Navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Medium
+5,Verify successful navigation to Checkout Info Page,"step 1: Navigate to Page checkout info
+step 2: Add visual checkpoint at Page checkout info",Medium

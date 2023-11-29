@@ -5,7 +5,7 @@
         <initValue>'https://laipham-ai-shop.netlify.app'</initValue>
         <name>application_domain</name>
     </GlobalVariableEntity>
-    <defaultProfile>True</defaultProfile>
+    <defaultProfile>False</defaultProfile>
     <description></description>
     <name>test</name>
     <tag></tag>

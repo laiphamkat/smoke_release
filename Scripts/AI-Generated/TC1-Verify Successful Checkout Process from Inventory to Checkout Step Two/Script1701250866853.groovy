@@ -165,6 +165,10 @@ WebUI.enhancedClick(testObj)
 
 WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Successful Checkout Process from Inventory to Checkout Step Two_visual_checkpoint')
 
+testObj = findTestObject('Custom TO Folder outside of AI-Generated folder/Custom TO Test')
+
+testObj = findTestObject('Custom Folder Inside AI-Generated/Custom TestObject')
+
 'Terminate test session: Close browser'
 
 @com.kms.katalon.core.annotation.TearDown

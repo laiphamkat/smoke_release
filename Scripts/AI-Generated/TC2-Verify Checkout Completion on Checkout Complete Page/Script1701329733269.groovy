@@ -1,5 +1,5 @@
-import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
 
 'Initialize test session: Open browser and set view port'
 
@@ -15,7 +15,7 @@ WebUI.navigateToUrl(GlobalVariable.application_domain + '/checkout-complete.html
 
 'step 2: Add visual checkpoint at Page checkout-complete html'
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Checkout Complete Page Displayed After Successful Order_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC2-Verify Checkout Completion on Checkout Complete Page_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

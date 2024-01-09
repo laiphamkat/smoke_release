@@ -1,0 +1,7 @@
+{
+    "steps": [
+        "step 1: Navigate to Page home --> navigate to Page category",
+        "step 2: At Page category click on button object",
+        "step 3: Add visual checkpoint at Page category"
+    ]
+}

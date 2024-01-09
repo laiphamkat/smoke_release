@@ -1,13 +1,15 @@
 Flow ID,Description,Test Steps,Flow Priority
-1,Verify Successful Checkout Process from Inventory to Checkout Step Two,"step 1: Navigate to Page home
-step 2: Login at Page home --> navigate to Page inventory html
-step 3: At Page inventory html click on button add to cart sauce labs backpack
-step 4: At Page inventory html click on hyperlink object --> navigate to Page cart html
-step 5: At Page cart html click on button checkout --> navigate to Page checkout-step-one html
-step 6: At Page checkout-step-one html input on input firstname
-step 7: At Page checkout-step-one html input on input lastname
-step 8: At Page checkout-step-one html input on input postalcode
-step 9: At Page checkout-step-one html click on input continue --> navigate to Page checkout-step-two html
-step 10: Add visual checkpoint at Page checkout-step-two html",High
-2,Verify Checkout Completion on Checkout Complete Page,"step 1: Navigate to Page checkout-complete html
-step 2: Add visual checkpoint at Page checkout-complete html",Trivial
+2,Verify Navigation to Home Page and Category Page and Object Click,"step 1: Navigate to Page home --> navigate to Page category
+step 2: At Page category click on button object
+step 3: Add visual checkpoint at Page category",High
+1,Verify Navigation to Home Page and Object Click,"step 1: Navigate to Page home
+step 2: At Page home click on button object
+step 3: Add visual checkpoint at Page home",High
+3,Verify Navigation to Home Page and Cart Page,"step 1: Navigate to Page home --> navigate to Page cart
+step 2: Add visual checkpoint at Page cart",Medium
+4,Verify Navigation to Home Page and Checkout Shipping Address Page,"step 1: Navigate to Page home --> navigate to Page checkout shipping-address
+step 2: Add visual checkpoint at Page checkout shipping-address",Medium
+5,Verify Navigation to Home Page and Checkout Info Page,"step 1: Navigate to Page home --> navigate to Page checkout info
+step 2: Add visual checkpoint at Page checkout info",Medium
+6,Verify Navigation to Home Page and Checkout Payment Page,"step 1: Navigate to Page home --> navigate to Page checkout payment
+step 2: Add visual checkpoint at Page checkout payment",Medium

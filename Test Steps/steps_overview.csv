@@ -1,15 +1,82 @@
-Flow ID,Description,Test Steps,Flow Priority
-2,Verify Navigation to Home Page and Category Page and Object Click,"step 1: Navigate to Page home --> navigate to Page category
-step 2: At Page category click on button object
-step 3: Add visual checkpoint at Page category",High
-1,Verify Navigation to Home Page and Object Click,"step 1: Navigate to Page home
-step 2: At Page home click on button object
-step 3: Add visual checkpoint at Page home",High
-3,Verify Navigation to Home Page and Cart Page,"step 1: Navigate to Page home --> navigate to Page cart
-step 2: Add visual checkpoint at Page cart",Medium
-4,Verify Navigation to Home Page and Checkout Shipping Address Page,"step 1: Navigate to Page home --> navigate to Page checkout shipping-address
-step 2: Add visual checkpoint at Page checkout shipping-address",Medium
-5,Verify Navigation to Home Page and Checkout Info Page,"step 1: Navigate to Page home --> navigate to Page checkout info
-step 2: Add visual checkpoint at Page checkout info",Medium
-6,Verify Navigation to Home Page and Checkout Payment Page,"step 1: Navigate to Page home --> navigate to Page checkout payment
-step 2: Add visual checkpoint at Page checkout payment",Medium
+Flow ID,Name,Description,Test Steps,Flow Priority
+0,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and proceed through the checkout process. Enter the required shipping information and payment details. Complete the checkout and verify the return to the home page.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink object > navigate to Page category
+step 4: At Page category, click on svg object
+step 5: At Page category, click on label object
+step 6: At Page category, click on svg object
+step 7: At Page category, click on hyperlink object > navigate to Page cart
+step 8: At Page cart, click on button object > navigate to Page checkout info
+step 9: At Page checkout info, hover on div object
+step 10: At Page checkout info, click on input email
+step 11: At Page checkout info, input on input email
+step 12: At Page checkout info, click on button object > navigate to Page checkout shipping-address
+step 13: At Page checkout shipping-address, click on input delivery id
+step 14: At Page checkout shipping-address, hover on div object
+step 15: At Page checkout shipping-address, click on input shipping address first name
+step 16: At Page checkout shipping-address, hover on div object
+step 17: At Page checkout shipping-address, input on input shipping address first name
+step 18: At Page checkout shipping-address, click on input shipping address last name
+step 19: At Page checkout shipping-address, hover on div object
+step 20: At Page checkout shipping-address, input on input shipping address last name
+step 21: At Page checkout shipping-address, click on input shipping address address line 1
+step 22: At Page checkout shipping-address, input on input shipping address address line 1
+step 23: At Page checkout shipping-address, click on div object
+step 24: At Page checkout shipping-address, hover on div object
+step 25: At Page checkout shipping-address, input on input shipping address zip
+step 26: At Page checkout shipping-address, click on input shipping address city
+step 27: At Page checkout shipping-address, hover on div object
+step 28: At Page checkout shipping-address, input on input shipping address city
+step 29: At Page checkout shipping-address, click on select shipping address country id
+step 30: At Page checkout shipping-address, hover on div object
+step 31: At Page checkout shipping-address, click on input shipping address state
+step 32: At Page checkout shipping-address, hover on div object
+step 33: At Page checkout shipping-address, input on input shipping address state
+step 34: At Page checkout shipping-address, click on input shipping address phone
+step 35: At Page checkout shipping-address, input on input shipping address phone
+step 36: At Page checkout shipping-address, click on button object > navigate to Page checkout payment
+step 37: At Page checkout payment, click on input payment method id
+step 38: At Page checkout payment, click on button object > navigate to Page home
+step 39: At Page home, click on button object
+step 40: At Page home, click on label object
+step 41: At Page home, click on button object
+step 42: Add visual checkpoint at Page home",High
+1,Verify Successful Checkout and Display of Thank You Page,Navigate to the home page and proceed through the checkout process. Enter the required shipping information and payment details. Complete the checkout and verify the display of the thank you page.,"step 1: Navigate to Page home
+step 2: At Page home, hover on li object
+step 3: At Page home, click on hyperlink object > navigate to Page category
+step 4: At Page category, click on svg object
+step 5: At Page category, click on label object
+step 6: At Page category, click on svg object
+step 7: At Page category, click on hyperlink object > navigate to Page cart
+step 8: At Page cart, click on button object > navigate to Page checkout info
+step 9: At Page checkout info, hover on div object
+step 10: At Page checkout info, click on input email
+step 11: At Page checkout info, input on input email
+step 12: At Page checkout info, click on button object > navigate to Page checkout shipping-address
+step 13: At Page checkout shipping-address, click on input delivery id
+step 14: At Page checkout shipping-address, hover on div object
+step 15: At Page checkout shipping-address, click on input shipping address first name
+step 16: At Page checkout shipping-address, hover on div object
+step 17: At Page checkout shipping-address, input on input shipping address first name
+step 18: At Page checkout shipping-address, click on input shipping address last name
+step 19: At Page checkout shipping-address, hover on div object
+step 20: At Page checkout shipping-address, input on input shipping address last name
+step 21: At Page checkout shipping-address, click on input shipping address address line 1
+step 22: At Page checkout shipping-address, input on input shipping address address line 1
+step 23: At Page checkout shipping-address, click on div object
+step 24: At Page checkout shipping-address, hover on div object
+step 25: At Page checkout shipping-address, input on input shipping address zip
+step 26: At Page checkout shipping-address, click on input shipping address city
+step 27: At Page checkout shipping-address, hover on div object
+step 28: At Page checkout shipping-address, input on input shipping address city
+step 29: At Page checkout shipping-address, click on select shipping address country id
+step 30: At Page checkout shipping-address, hover on div object
+step 31: At Page checkout shipping-address, click on input shipping address state
+step 32: At Page checkout shipping-address, hover on div object
+step 33: At Page checkout shipping-address, input on input shipping address state
+step 34: At Page checkout shipping-address, click on input shipping address phone
+step 35: At Page checkout shipping-address, input on input shipping address phone
+step 36: At Page checkout shipping-address, click on button object > navigate to Page checkout payment
+step 37: At Page checkout payment, click on input payment method id
+step 38: At Page checkout payment, click on button object > navigate to Page thank-you
+step 39: Add visual checkpoint at Page thank-you",Trivial

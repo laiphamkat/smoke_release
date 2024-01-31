@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Checkout Process from Home to Payment,Navigate to the home page and proceed through the checkout process. Enter the required shipping information and payment details. Complete the checkout and verify the return to the home page.,"step 1: Navigate to Page home
+0,Verify Successful Checkout Process with Shipping Address and Payment,Navigate to the home page and proceed to the checkout process. Enter shipping address details and select the payment method. Verify that the process is successful and return to the home page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink object > navigate to Page category
 step 4: At Page category, click on svg object
@@ -41,7 +41,7 @@ step 39: At Page home, click on button object
 step 40: At Page home, click on label object
 step 41: At Page home, click on button object
 step 42: Add visual checkpoint at Page home",High
-1,Verify Successful Checkout and Display of Thank You Page,Navigate to the home page and proceed through the checkout process. Enter the required shipping information and payment details. Complete the checkout and verify the display of the thank you page.,"step 1: Navigate to Page home
+1,Verify Successful Checkout Process with Shipping Address and Payment and Confirmation,Navigate to the home page and proceed to the checkout process. Enter shipping address details and select the payment method. Verify that the process is successful and proceed to the thank you page. Verify the thank you page.,"step 1: Navigate to Page home
 step 2: At Page home, hover on li object
 step 3: At Page home, click on hyperlink object > navigate to Page category
 step 4: At Page category, click on svg object

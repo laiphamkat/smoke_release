@@ -1,82 +1,23 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-0,Verify Successful Checkout Process with Shipping Address and Payment Method,Navigate to the home page and proceed to select an item. Add the item to the cart and proceed to the checkout information. Enter the required shipping address details and choose the payment method. Verify the successful completion of the checkout process on the home page.,"step 1: Navigate to Page home
-step 2: At Page home, hover on li object
-step 3: At Page home, click on hyperlink object > navigate to Page category
-step 4: At Page category, click on svg object
-step 5: At Page category, click on label object
-step 6: At Page category, click on svg object
-step 7: At Page category, click on hyperlink object > navigate to Page cart
-step 8: At Page cart, click on button object > navigate to Page checkout info
-step 9: At Page checkout info, hover on div object
-step 10: At Page checkout info, click on input email
-step 11: At Page checkout info, input on input email
-step 12: At Page checkout info, click on button object > navigate to Page checkout shipping-address
-step 13: At Page checkout shipping-address, click on input delivery id
-step 14: At Page checkout shipping-address, hover on div object
-step 15: At Page checkout shipping-address, click on input shipping address first name
-step 16: At Page checkout shipping-address, hover on div object
-step 17: At Page checkout shipping-address, input on input shipping address first name
-step 18: At Page checkout shipping-address, click on input shipping address last name
-step 19: At Page checkout shipping-address, hover on div object
-step 20: At Page checkout shipping-address, input on input shipping address last name
-step 21: At Page checkout shipping-address, click on input shipping address address line 1
-step 22: At Page checkout shipping-address, input on input shipping address address line 1
-step 23: At Page checkout shipping-address, click on div object
-step 24: At Page checkout shipping-address, hover on div object
-step 25: At Page checkout shipping-address, input on input shipping address zip
-step 26: At Page checkout shipping-address, click on input shipping address city
-step 27: At Page checkout shipping-address, hover on div object
-step 28: At Page checkout shipping-address, input on input shipping address city
-step 29: At Page checkout shipping-address, click on select shipping address country id
-step 30: At Page checkout shipping-address, hover on div object
-step 31: At Page checkout shipping-address, click on input shipping address state
-step 32: At Page checkout shipping-address, hover on div object
-step 33: At Page checkout shipping-address, input on input shipping address state
-step 34: At Page checkout shipping-address, click on input shipping address phone
-step 35: At Page checkout shipping-address, input on input shipping address phone
-step 36: At Page checkout shipping-address, click on button object > navigate to Page checkout payment
-step 37: At Page checkout payment, click on input payment method id
-step 38: At Page checkout payment, click on button object > navigate to Page home
-step 39: At Page home, click on button object
-step 40: At Page home, click on label object
-step 41: At Page home, click on button object
-step 42: Add visual checkpoint at Page home",High
-1,Verify Successful Completion of Checkout with Thank You Page,Navigate to the home page and proceed to select an item. Add the item to the cart and proceed to the checkout information. Enter the required shipping address details and choose the payment method. Verify the successful completion of the checkout process and the display of the thank you page.,"step 1: Navigate to Page home
-step 2: At Page home, hover on li object
-step 3: At Page home, click on hyperlink object > navigate to Page category
-step 4: At Page category, click on svg object
-step 5: At Page category, click on label object
-step 6: At Page category, click on svg object
-step 7: At Page category, click on hyperlink object > navigate to Page cart
-step 8: At Page cart, click on button object > navigate to Page checkout info
-step 9: At Page checkout info, hover on div object
-step 10: At Page checkout info, click on input email
-step 11: At Page checkout info, input on input email
-step 12: At Page checkout info, click on button object > navigate to Page checkout shipping-address
-step 13: At Page checkout shipping-address, click on input delivery id
-step 14: At Page checkout shipping-address, hover on div object
-step 15: At Page checkout shipping-address, click on input shipping address first name
-step 16: At Page checkout shipping-address, hover on div object
-step 17: At Page checkout shipping-address, input on input shipping address first name
-step 18: At Page checkout shipping-address, click on input shipping address last name
-step 19: At Page checkout shipping-address, hover on div object
-step 20: At Page checkout shipping-address, input on input shipping address last name
-step 21: At Page checkout shipping-address, click on input shipping address address line 1
-step 22: At Page checkout shipping-address, input on input shipping address address line 1
-step 23: At Page checkout shipping-address, click on div object
-step 24: At Page checkout shipping-address, hover on div object
-step 25: At Page checkout shipping-address, input on input shipping address zip
-step 26: At Page checkout shipping-address, click on input shipping address city
-step 27: At Page checkout shipping-address, hover on div object
-step 28: At Page checkout shipping-address, input on input shipping address city
-step 29: At Page checkout shipping-address, click on select shipping address country id
-step 30: At Page checkout shipping-address, hover on div object
-step 31: At Page checkout shipping-address, click on input shipping address state
-step 32: At Page checkout shipping-address, hover on div object
-step 33: At Page checkout shipping-address, input on input shipping address state
-step 34: At Page checkout shipping-address, click on input shipping address phone
-step 35: At Page checkout shipping-address, input on input shipping address phone
-step 36: At Page checkout shipping-address, click on button object > navigate to Page checkout payment
-step 37: At Page checkout payment, click on input payment method id
-step 38: At Page checkout payment, click on button object > navigate to Page thank-you
-step 39: Add visual checkpoint at Page thank-you",Trivial
+1,Verify Releases in Team Project Planning,Navigate to the organization's home page and access the team project. Proceed to the releases section under planning and verify the displayed releases.,"step 1: Navigate to https://testops.staging.katalon.com
+step 2: Click on link 'L-\nLLA - Staging\nThere is no data to display.' -> Navigate to page 'team/*/project/*'
+step 3: Click on link 'menu-truetest' -> Navigate to page 'team/*/project/*/truetest/user-journeys'
+step 4: Click on link '14' -> Navigate to page 'team/*/project/*/truetest/user-journeys/*/aut/*'
+step 5: Click on link 'Settings' -> Navigate to page 'team/*/project/*/settings'
+step 6: Click on link 'Test Environments' -> Navigate to page 'team/*/project/*/agent'
+step 7: Click on link 'Agent Setup' -> Navigate to page 'team/*/project/*/test-environment-installation'
+step 8: Click on link 'TestCloud Tunnels' -> Navigate to page 'team/*/project/*/testCloudTunnel'
+step 9: Click on link 'Planning' -> Navigate to page 'team/*/project/*/releases'
+step 10: Take full page screenshot as checkpoint",High
+2,Verify User Journeys Automation in Team Project,Navigate to the organization's home page and access the team project. Proceed to the user journeys automation page and verify the displayed content.,"step 1: Navigate to https://testops.staging.katalon.com
+step 2: Click on link 'L-\nLLA - Staging\nThere is no data to display.' -> Navigate to page 'team/*/project/*'
+step 3: Click on link 'menu-truetest' -> Navigate to page 'team/*/project/*/truetest/user-journeys'
+step 4: Click on link '14' -> Navigate to page 'team/*/project/*/truetest/user-journeys/*/aut/*'
+step 5: Click on button
+step 6: Take full page screenshot as checkpoint",High
+3,Verify Test Case Steps for Postpaid Plan in Team Project,Navigate to the organization's home page and access the team project. Proceed to the test design test cases and verify the steps for verifying successful postpaid plan.,"step 1: Navigate to https://testops.staging.katalon.com
+step 2: Click on link 'L-\nLLA - Staging\nThere is no data to display.' -> Navigate to page 'team/*/project/*'
+step 3: Click on link 'menu-truetest' -> Navigate to page 'team/*/project/*/truetest/user-journeys'
+step 4: Click on link '2' -> Navigate to page 'team/*/project/*/test-design/test-cases'
+step 5: Click on link 'TC1-Verify Succes...ile Postpaid Plan' -> Navigate to page 'team/*/project/*/test-design/test-cases/*/steps'
+step 6: Take full page screenshot as checkpoint",Trivial

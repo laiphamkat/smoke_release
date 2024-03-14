@@ -1,7 +1,7 @@
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.model.FailureHandling
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 'Initialize test session: Open browser and set view port'
 
@@ -39,21 +39,21 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project/hyperlink_men
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_truetest_user-journeys/hyperlink_14'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_truetest_user_journeys/hyperlink_14'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/team/.*/project/.*/truetest/user-journeys?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_truetest_user-journeys/hyperlink_14'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_truetest_user_journeys/hyperlink_14'))
 
 "Step 5: Click on link 'Settings' -> Navigate to page 'team/*/project/*/settings'"
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_truetest_user-journeys_aut/hyperlink_settings'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_truetest_user_journeys_aut/hyperlink_settings'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/team/.*/project/.*/truetest/user-journeys/.*/aut/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_truetest_user-journeys_aut/hyperlink_settings'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_truetest_user_journeys_aut/hyperlink_settings'))
 
 "Step 6: Click on link 'Test Environments' -> Navigate to page 'team/*/project/*/agent'"
 
@@ -79,11 +79,11 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_agent/hyperli
 
 WebUI.takeScreenshot()
 
-WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_test-environment-installation/hyperlink_testcloud_tunnels'), 20, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Page_team_project_test_environment_installation/hyperlink_testcloud_tunnels'), 20, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + '/team/.*/project/.*/test-environment-installation?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_test-environment-installation/hyperlink_testcloud_tunnels'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_test_environment_installation/hyperlink_testcloud_tunnels'))
 
 "Step 9: Click on link 'Planning' -> Navigate to page 'team/*/project/*/releases'"
 
@@ -97,7 +97,7 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_team_project_testCloudTunn
 
 "Step 10: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Releases in Team Project Planning_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('TC1-Verify Releases in Team Project Planning Section_visual_checkpoint')
 
 'Terminate test session: Close browser'
 

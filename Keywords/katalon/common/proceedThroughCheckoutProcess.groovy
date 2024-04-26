@@ -3,12 +3,12 @@ package katalon.common
 import com.kms.katalon.core.testdata.TestData as TestData
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import internal.GlobalVariable
 import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-public class proceedToCheckoutByEnteringPersonalInformation {
+public class proceedThroughCheckoutProcess {
     
     private static def execute_functional_method(Map data) {
         "Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'"

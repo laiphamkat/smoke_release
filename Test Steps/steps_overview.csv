@@ -1,13 +1,50 @@
 Flow ID,Name,Description,Test Steps,Flow Priority
-1,Verify Team Project Releases Page Navigation and Setup,"Navigate to the organization's home page and access the team project section. Explore the user journeys and return to the home page. Proceed to the team project settings, agent setup, testcloud tunnels, and planning. Verify the team project releases page.","Step 1: Navigate to https://testops.staging.katalon.com
-Step 2: Click on link 'L-LLA - StagingThere is no data to display.' -> Navigate to page 'team/*/project/*'
-Step 3: Click on link 'menu-truetest' -> Navigate to page 'team/*/project/*/truetest/user-journeys'
-Step 4: Click on link '14' -> Navigate to page ''
-Step 5: Open page team project settings, agent setup, testcloud tunnels, and planning
-	- Step 1: Click on link 'Settings' -> Navigate to page 'team/*/project/*/settings'
-	- Step 2: Click on link 'Test Environments' -> Navigate to page 'team/*/project/*/agent'
-	- Step 3: Click on link 'Agent Setup' -> Navigate to page 'team/*/project/*/test-environment-installation'
-	- Step 4: Click on link 'TestCloud Tunnels' -> Navigate to page 'team/*/project/*/testCloudTunnel'
-	- Step 5: Click on link 'Planning'
-Step 6: Take full page screenshot as checkpoint
-",Trivial
+1,Verify Successful Checkout Process after Adding Sauce Labs Bike Light to Cart,"Navigate to the home page and login. Proceed to the inventory page and add the Sauce Labs Bike Light to the cart. Return to the inventory page, proceed to checkout by entering personal information, and complete the checkout process. Verify the inventory page after checkout.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Enter username, password, and login
+	- Step 1: Click on input field 'user-name'
+	- Step 2: Enter input value in input field 'user-name'
+	- Step 3: Click on input field 'password'
+	- Step 4: Enter input value in input field 'password'
+	- Step 5: Click on input field 'login-button'
+Step 4: Click on button 'add-to-cart-sauce-labs-bike-light'
+Step 5: Click on link '1'
+Step 6: Proceed to checkout by entering personal information
+	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input field 'firstName'
+	- Step 3: Enter input value in input field 'firstName'
+	- Step 4: Click on input field 'lastName'
+	- Step 5: Enter input value in input field 'lastName'
+	- Step 6: Click on input field 'postalCode'
+	- Step 7: Enter input value in input field 'postalCode'
+	- Step 8: Click on input field 'continue'
+Step 7: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
+Step 8: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
+Step 9: Take full page screenshot as checkpoint
+",High
+2,Verify Successful Checkout Completion after Adding Items to Cart,"Navigate to the home page and login. Proceed to the inventory page and add an item to the cart. Return to the inventory page, add another item to the cart, and then return to the home page. Proceed to checkout by entering personal information and complete the checkout process. Verify the completion of the checkout process.","Step 1: Navigate to https://www.saucedemo.com/
+Step 2: Login
+Step 3: Enter username, password, and login
+	- Step 1: Click on input field 'user-name'
+	- Step 2: Enter input value in input field 'user-name'
+	- Step 3: Click on input field 'password'
+	- Step 4: Enter input value in input field 'password'
+	- Step 5: Click on input field 'login-button'
+Step 4: Click on link 'item 4 title link' -> Navigate to page 'inventory-item.html'
+Step 5: Click on button 'add-to-cart'
+Step 6: Click on button 'back-to-products' -> Navigate to page 'inventory.html'
+Step 7: Click on link 'item 1 title link' -> Navigate to page 'inventory-item.html'
+Step 8: Click on button 'add-to-cart'
+Step 9: Click on link '2'
+Step 10: Proceed to checkout by entering personal information
+	- Step 1: Click on button 'checkout' -> Navigate to page 'checkout-step-one.html'
+	- Step 2: Click on input field 'firstName'
+	- Step 3: Enter input value in input field 'firstName'
+	- Step 4: Click on input field 'lastName'
+	- Step 5: Enter input value in input field 'lastName'
+	- Step 6: Click on input field 'postalCode'
+	- Step 7: Enter input value in input field 'postalCode'
+	- Step 8: Click on input field 'continue'
+Step 11: Click on button 'finish' -> Navigate to page 'checkout-complete.html'
+Step 12: Take full page screenshot as checkpoint
+",Low

@@ -1,0 +1,14 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Click on div loginCredentials",
+        "step 3: Click on div loginCredentials",
+        "step 4: Login -> Navigate to page '/inventory.html'",
+        "step 5: Click on link inventoryItems (sauceLabsBackpack) -> Navigate to page '/inventory-item.html'",
+        "step 6: Click on button addToCart",
+        "step 7: Click on link shoppingCart",
+        "step 8: Fill out personal information for checkout",
+        "step 9: Click on button finish -> Navigate to page '/checkout-complete.html'",
+        "step 10: Take full page screenshot as checkpoint"
+    ]
+}

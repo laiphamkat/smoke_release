@@ -1,0 +1,45 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Checkout Process for Single Item in Sauce Demo,"Login to Sauce Demo, add an item to the cart, fill out personal information, complete the checkout, and verify the completion page.","Step 1: Navigate to /
+Step 2: Click on div loginCredentials
+Step 3: Click on div loginCredentials
+Step 4: Login -> Navigate to page '/inventory.html'
+Step 5: Click on link inventoryItems (sauceLabsBackpack) -> Navigate to page '/inventory-item.html'
+Step 6: Click on button addToCart
+Step 7: Click on link shoppingCart
+Step 8: Fill out personal information for checkout
+	- Step 1: Click on button checkout -> Navigate to page '/checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on input continue
+Step 9: Click on button finish -> Navigate to page '/checkout-complete.html'
+Step 10: Take full page screenshot as checkpoint
+",High,NEW
+2,Complete Checkout Process for Multiple Items in Sauce Demo,"Login to Sauce Demo, add multiple items to the cart, fill out personal information, complete the checkout, and navigate back to the inventory page.","Step 1: Navigate to /
+Step 2: Click on div loginCredentials
+Step 3: Click on div loginCredentials
+Step 4: Login -> Navigate to page '/inventory.html'
+Step 5: Click on link inventoryItems (sauceLabsBackpack) -> Navigate to page '/inventory-item.html'
+Step 6: Click on button addToCart
+Step 7: Click on button backToProducts -> Navigate to page '/inventory.html'
+Step 8: Click on link inventoryItems (sauceLabsBikeLight) -> Navigate to page '/inventory-item.html'
+Step 9: Click on button addToCart
+Step 10: Click on button backToProducts -> Navigate to page '/inventory.html'
+Step 11: Click on button addToCartSauceLabsBoltTshirt
+Step 12: Click on link shoppingCart
+Step 13: Fill out personal information for checkout
+	- Step 1: Click on button checkout -> Navigate to page '/checkout-step-one.html'
+	- Step 2: Click on input firstName
+	- Step 3: Enter input value in input firstName
+	- Step 4: Click on input lastName
+	- Step 5: Enter input value in input lastName
+	- Step 6: Click on input postalCode
+	- Step 7: Enter input value in input postalCode
+	- Step 8: Click on input continue
+Step 14: Click on button finish -> Navigate to page '/checkout-complete.html'
+Step 15: Click on button backHome -> Navigate to page '/inventory.html'
+Step 16: Take full page screenshot as checkpoint
+",High,NEW
